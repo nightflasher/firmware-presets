@@ -43,7 +43,6 @@ set gps_auto_config = OFF
 	#$ OPTION BEGIN (UNCHECKED): Mediatek 
 		set gps_nmea_custom_command = $PMTK314,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0*28
 	#$ OPTION END
-
 	#$ OPTION BEGIN (UNCHECKED): GoTop
 		set gps_nmea_custom_command = $PGKC242,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0*37
 	#$ OPTION END
@@ -53,10 +52,8 @@ set gps_auto_config = OFF
 	#$ OPTION BEGIN (UNCHECKED): Mediatek MTK 
 		set gps_nmea_custom_command = $PMTK251,38400*27 $PMTK220,200*2C
 	#$ OPTION END
-
 	#$ OPTION BEGIN (UNCHECKED): GoTop
 		set gps_nmea_custom_command = $PMTK251,38400*27 $PGKC101,200*31
-
 	#$ OPTION END
 #$ OPTION_GROUP END
 
@@ -64,10 +61,8 @@ set gps_auto_config = OFF
 	#$ OPTION BEGIN (UNCHECKED): Mediatek MTK 
 		set gps_nmea_custom_command = $PMTK251,57600*2C $PMTK220,200*2C
 	#$ OPTION END
-
 	#$ OPTION BEGIN (UNCHECKED): GoTop
 		set gps_nmea_custom_command = $PGKC147,57600*35 $PGKC101,200*31
-
 	#$ OPTION END
 #$ OPTION_GROUP END
 
@@ -75,7 +70,6 @@ set gps_auto_config = OFF
 	#$ OPTION BEGIN (UNCHECKED): Mediatek MTK 
 		set gps_nmea_custom_command = $PMTK251,57600*2C $PMTK220,100*2F
 	#$ OPTION END
-
 	#$ OPTION BEGIN (UNCHECKED): GoTop
 		set gps_nmea_custom_command = $PGKC147,57600*35 $PGKC101,100*32
 	#$ OPTION END
@@ -85,10 +79,8 @@ set gps_auto_config = OFF
 	#$ OPTION BEGIN (UNCHECKED): Mediatek MTK 
 		set gps_nmea_custom_command = $PMTK251,115200*1F $PMTK220,200*2C
 	#$ OPTION END
-
 	#$ OPTION BEGIN (UNCHECKED): GoTop
 		set gps_nmea_custom_command = $PGKC147,115200*06 $PGKC101,200*31
-
 	#$ OPTION END
 #$ OPTION_GROUP END
 
@@ -96,7 +88,6 @@ set gps_auto_config = OFF
 	#$ OPTION BEGIN (UNCHECKED): Mediatek MTK 
 		set gps_nmea_custom_command = $PMTK251,115200*1F $PMTK220,100*2F
 	#$ OPTION END
-
 	#$ OPTION BEGIN (UNCHECKED): GoTop
 		set gps_nmea_custom_command = $PGKC147,115200*06 $PGKC101,100*32
 	#$ OPTION END
